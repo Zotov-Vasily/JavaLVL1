@@ -6,25 +6,13 @@ public class Task1 {
         int x = 0;     // Вводим x для хранения ответа и scan, чтобы считать ответ
         Scanner scan = new Scanner(System.in);
         x = scan.nextInt(); // x приобретает значение функции nextInt () //nextInt возвращает введенное число
-        if (x == 1) {
+        if (x >= 1 && x<=4){
             System.out.println("Малоэтажный дом ");
-        } else if (x == 2){
-            System.out.println("Малоэтажный дом ");
-        } else if (x == 3){
-            System.out.println("Малоэтажный дом ");
-        } else if (x == 4){
-            System.out.println("Малоэтажный дом ");
-        } else if (x == 5){
-            System.out.println("Среднеэтажный дом ");
-        } else if (x == 6){
-            System.out.println("Среднеэтажный дом ");
-        } else if (x == 7){
-            System.out.println("Среднеэтажный дом ");
-        } else if (x == 8){
+        } else if (x >= 5 && x<=8){
             System.out.println("Среднеэтажный дом ");
         } else if (x >= 9){
             System.out.println("Многоэтажный дом ");
-        } else if (x < 1){
+        } else{
             System.out.println("Ошибка ввода ");
         }
 
