@@ -7,7 +7,7 @@ public class Task4 {
         int n = 100;
         Random rand = new Random();
         int[] array = new int[n];
-        
+
         for (int i = 0; i < array.length; i++){
             array[i] = rand.nextInt(10000);
         }
