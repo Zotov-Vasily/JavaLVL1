@@ -25,9 +25,9 @@ public class Task1 {
             scanner.close();
 
         }catch (FileNotFoundException e){
-            throw new RuntimeException("Файл не найден");
+            throw new RuntimeException("Р¤Р°Р№Р» РЅРµ РЅР°Р№РґРµРЅ");
         }catch (IOException e) {
-            throw new RuntimeException("Некоректный входной файл");
+            throw new RuntimeException("РќРµРєРѕСЂРµРєС‚РЅС‹Р№ РІС…РѕРґРЅРѕР№ С„Р°Р№Р»");
         }
     }
 

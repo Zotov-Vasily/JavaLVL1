@@ -45,4 +45,7 @@ public class Teacher {
         System.out.println("Преподаватель " + this.fio + " оценил студента с именем " + student.getFio() +
                 " по предмету " + this.subject + " на оценку " + evaluation);
     }
+
+    public void printInfo() {
+    }
 }
